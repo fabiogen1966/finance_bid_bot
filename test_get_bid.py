@@ -10,3 +10,5 @@ if __name__ == "__main__":
         price = mu.get_current_price(symbol)
         unit = SYMBOL_UNITS.get(symbol, 'USD')
         print(f"The current price of {symbol} is: {price} {unit}")
+    
+    print("\n")

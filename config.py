@@ -16,17 +16,17 @@ SYMBOL_UNITS = {
 }
 
 # Telegram Bot Configuration
-TELEGRAM_BOT_TOKEN = '<YOUR_BOT_TOKEN>'
-TELEGRAM_CHAT_ID = '<YOUR_CHAT_ID>'
+TELEGRAM_BOT_TOKEN = '8416801496:AAHIU5uWJnF1mmWKRrxqPZZWacARCFwHnvM'
+TELEGRAM_CHAT_ID = '268510781'
 
 # Polling interval in seconds
-POLLING_INTERVAL = 300  # 5 minutes
+POLLING_INTERVAL = 15  # 5 minutes
 
 # Price thresholds for alerts
 PRICE_THRESHOLDS = {
-    'oro': 2000.0,
-    'argento': 25.0,
-    'petrolio': 70.0,
+    'oro': 3810.0,
+    'argento': 41.0,
+    'petrolio': 61.0,
     'rame': 4.0
 }
 
