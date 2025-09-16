@@ -1,10 +1,10 @@
 # Configuration file for finance symbols mapping
 
 SYMBOL_MAPPING = {
-    'oro': 'GC=F',      # Gold Futures
-    'argento': 'SI=F',  # Silver Futures
-    'petrolio': 'CL=F', # Crude Oil Futures
-    'rame': 'HG=F'     # Copper Futures
+    'oro': 'XAU',         # Gold
+    'argento': 'XAG',     # Silver
+    'petrolio': 'WTI',    # West Texas Intermediate
+    'rame': 'COPPER'      # Copper
 }
 
 # Units for each symbol
@@ -14,6 +14,10 @@ SYMBOL_UNITS = {
     'petrolio': 'USD/BBL',
     'rame': 'USD/LB'
 }
+
+# Alpha Vantage API Configuration
+# <-- INSERISCI QUI LA TUA CHIAVE API
+ALPHA_VANTAGE_API_KEY = 'ILOSTKEZ9LL3O0AY'
 
 # Telegram Bot Configuration
 TELEGRAM_BOT_TOKEN = '8416801496:AAHIU5uWJnF1mmWKRrxqPZZWacARCFwHnvM'
