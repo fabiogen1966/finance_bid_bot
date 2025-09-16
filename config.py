@@ -1,23 +1,25 @@
 # Configuration file for finance symbols mapping
 
 SYMBOL_MAPPING = {
-    'oro': 'XAU',         # Gold
-    'argento': 'XAG',     # Silver
-    'petrolio': 'WTI',    # West Texas Intermediate
-    'rame': 'COPPER'      # Copper
+    'oro': 'gold',
+    'argento': 'silver'
 }
 
 # Units for each symbol
 SYMBOL_UNITS = {
-    'oro': 'USD/OZ', 
-    'argento': 'USD/OZ',
-    'petrolio': 'USD/BBL',
-    'rame': 'USD/LB'
+    'oro': 'USD/g',
+    'argento': 'USD/g'
 }
 
 # Alpha Vantage API Configuration
-# <-- INSERISCI QUI LA TUA CHIAVE API
 ALPHA_VANTAGE_API_KEY = 'ILOSTKEZ9LL3O0AY'
+
+# ExchangeRate-API Configuration (1500 richieste/mese gratis)
+EXCHANGERATE_API_KEY = '27540f5cbbbd77bd87abcd70'
+
+# Commodities-API Configuration
+# <-- INSERISCI QUI LA TUA CHIAVE COMMODITIES
+COMMODITIES_API_KEY = '27540f5cbbbd77bd87abcd70'
 
 # Telegram Bot Configuration
 TELEGRAM_BOT_TOKEN = '8416801496:AAHIU5uWJnF1mmWKRrxqPZZWacARCFwHnvM'
